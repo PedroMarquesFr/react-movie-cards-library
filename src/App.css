@@ -21,7 +21,7 @@ body {
 
 .movie-list {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   padding: 48px 30px;
 }
 
@@ -36,7 +36,6 @@ body {
   overflow: hidden;
   width: 300px;
 }
-
 
 .movie-card-image {
   width: 100%;
